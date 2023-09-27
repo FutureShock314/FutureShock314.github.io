@@ -9,10 +9,30 @@
 </head>
 <body>
     <div class="grad"></div>
-    <header>
-        <h1 class="header">Hola</h1>
+    <header class="hero">
+        <div class="container">
+            <div class="hero-title-container">
+                <h1 class="hero-title">Hola</h1>
+                <p class="hero-title" data-overlay aria-hidden='true'></p>
+            </div>
+        </div>
+        <div class="canvas-container">
+            <canvas id="canv" width="32" height="32"></canvas>
+        </div>
     </header>
 
-    <script src="./main.js"></script>
+    <div class="sidebar">
+        <button class="btn" onclick="window.location = './index.html'">there</button>
+        <button class="btn" onclick="window.location = './index.html'">are</button>
+        <button class="btn" onclick="window.location = './index.html'">so</button>
+        <button class="btn" onclick="window.location = './index.html'">many</button>
+        <button class="btn" onclick="window.location = './index.html'">buttons</button>
+        <button class="btn" onclick="window.location = './index.html'">here</button>
+        <button class="btn" onclick="window.location = './index.html'">please</button>
+        <button class="btn" onclick="window.location = './index.html'">help</button>
+        <button class="btn" onclick="window.location = './index.html'">me</button>
+    </div>
+
+    <script type='module' src="./main.js"></script>
 </body>
 </html>
