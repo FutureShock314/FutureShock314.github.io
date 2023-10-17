@@ -3,7 +3,6 @@ var term2 = document.getElementById('term2')
 var term3 = document.getElementById('term3')
 var title = document.querySelector('.title')
 
-term1.addEventListener('input') = () => {
+term1.onchange = () => {
     title.innerHTML = term1.value
-    title.cloneNode()
 }
