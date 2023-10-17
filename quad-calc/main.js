@@ -10,13 +10,6 @@ term1.oninput = () => {
     term1Text.innerHTML = term1.value
 }
 
-term1.onkeydown = () => {
-    term1Text.innerHTML = term1.value
-}
-
-term2.onkeydown = () => {
-    term2Text.innerHTML = term2.value
-}
 term2.oninput = () => {
     term2Text.innerHTML = term2.value
 }
