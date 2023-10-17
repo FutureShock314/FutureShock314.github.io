@@ -3,6 +3,6 @@ var term2 = document.getElementById('term2')
 var term3 = document.getElementById('term3')
 var title = document.querySelector('.title')
 
-term1.onchange = () => {
+term1.oninput = () => {
     title.innerHTML = term1.value
 }
