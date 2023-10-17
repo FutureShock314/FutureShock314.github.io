@@ -5,4 +5,5 @@ var title = document.querySelector('.title')
 
 term1.addEventListener('input') = () => {
     title.innerHTML = term1.value
+    title.cloneNode()
 }
