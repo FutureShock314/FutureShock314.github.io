@@ -1,9 +1,9 @@
 var term1 = document.getElementById('term1')
-var term1Text = document.getElementById('term1-text')
+var term1Text = document.querySelector('.term1-text')
 var term2 = document.getElementById('term2')
-var term2Text = document.getElementById('term2-text')
+var term2Text = document.querySelector('.term2-text')
 var term3 = document.getElementById('term3')
-var term3Text = document.getElementById('term3-text')
+var term3Text = document.querySelector('.term3-text')
 var title = document.querySelector('.title')
 
 term1.oninput = () => {
