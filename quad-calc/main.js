@@ -10,3 +10,8 @@ term1.oninput = () => {
 term1.onkeydown = () => {
     title.innerHTML = term1.value
 }
+
+term2.onkeydown = () => {
+    document.createElement(div)
+    document.querySelector('div').innerHTML = term2.value
+}
