@@ -17,7 +17,10 @@ term1.onkeydown = () => {
 term2.onkeydown = () => {
     term2Text.innerHTML = term2.value
 }
+term2.oninput = () => {
+    term2Text.innerHTML = term2.value
+}
 
-term3.onkeydown = () => {
+term3.oninput = () => {
     term3Text.innerHTML = term3.value
 }
