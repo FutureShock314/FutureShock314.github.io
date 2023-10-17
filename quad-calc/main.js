@@ -7,7 +7,7 @@ var term3Text = document.getElementById('term3-text')
 var title = document.querySelector('.title')
 
 term1.oninput = () => {
-    title.innerHTML = term1.value
+    term1Text.innerHTML = term1.value
 }
 
 term1.onkeydown = () => {
