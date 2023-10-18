@@ -1,19 +1,19 @@
-var term1 = document.getElementById('term1')
-var term1Text = document.querySelector('.term1-text')
-var term2 = document.getElementById('term2')
-var term2Text = document.querySelector('.term2-text')
-var term3 = document.getElementById('term3')
-var term3Text = document.querySelector('.term3-text')
+var in_t1 = document.getElementById('in_t1')
+var out_a = document.querySelector('.term1-text')
+var in_t2 = document.getElementById('in_t2')
+var out_b = document.querySelector('.term2-text')
+var in_t3 = document.getElementById('in_t3')
+var out_c = document.querySelector('.term3-text')
 var title = document.querySelector('.title')
 
 term1.oninput = () => {
-    term1Text.innerHTML = term1.value
+    out_a.innerHTML = term1.value
 }
 
 term2.oninput = () => {
-    term2Text.innerHTML = term2.value
+    out_b.innerHTML = term2.value
 }
 
 term3.oninput = () => {
-    term3Text.innerHTML = term3.value
+    out_c.innerHTML = term3.value
 }
