@@ -7,13 +7,13 @@ var out_c = document.querySelector('.term3-text')
 var title = document.querySelector('.title')
 
 term1.oninput = () => {
-    out_a.innerHTML = out_a.value
+    out_a.innerHTML = in_t1.value
 }
 
 term2.oninput = () => {
-    out_b.innerHTML = out_b.value
+    out_b.innerHTML = in_t2.value
 }
 
 term3.oninput = () => {
-    out_c.innerHTML = out_c.value
+    out_c.innerHTML = in_t3.value
 }
