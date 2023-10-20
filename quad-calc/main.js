@@ -11,7 +11,12 @@ in_t1.oninput = () => {
 }
 
 in_t2.oninput = () => {
-    out_b.innerHTML = parseInt(in_t2.value)
+    if(typeOf(in_t2.value) != 'string') {
+        out_b.innerHTML = parseInt(in_t2.value)
+    }
+    else {
+        out_b.innerHTML = ''
+    }
 }
 
 in_t3.oninput = () => {
