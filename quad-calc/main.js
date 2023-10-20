@@ -7,7 +7,7 @@ var out_c = document.querySelector('.term3-text')
 var title = document.querySelector('.title')
 
 in_t1.oninput = () => {
-    out_a.innerHTML = (parseInt(in_t1.value)
+    out_a.innerHTML = parseInt(in_t1.value)
 }
 
 in_t2.oninput = () => {
